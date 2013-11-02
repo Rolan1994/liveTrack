@@ -20,6 +20,7 @@
 	<modules>
 		<module>tecno-server</module>
     <module>tecno-web</module>
-  </modules>
+    <module>tecno-domain</module>
+	</modules>
 
 </project>

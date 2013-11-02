@@ -1,0 +1,23 @@
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+	<changeSet id="create-table-roles" author="nicolasalderete">
+		<sql>
+			CREATE TABLE IF NOT EXISTS ROLES
+			(
+				id int(10) not null auto_increment,
+				codigo varchar(30) not null,
+				descripcion varchar(30) not null,
+				estado enum('HA','BA') not null,
+				fechaEstado date not null,
+				PRIMARY KEY (id)
+			) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1;
+		</sql>
+	</changeSet>
+	
+	
+</databaseChangeLog>
