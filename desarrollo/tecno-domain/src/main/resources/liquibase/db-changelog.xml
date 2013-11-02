@@ -7,6 +7,6 @@
 
 	<include file="/src/main/resources/liquibase/sql/change-1.xml"/>
 	<include file="/src/main/resources/liquibase/sql/create-table-roles.xml"/>
-	
+	<include file="/src/main/resources/liquibase/sql/create-table-usuarios-roles.xml"/>
 	
 </databaseChangeLog>
