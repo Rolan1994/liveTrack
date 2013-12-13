@@ -1,4 +1,4 @@
-package ar.com.livetrack.domain.modelo;
+package ar.com.livetrack.modelo;
 
 import java.util.Date;
 

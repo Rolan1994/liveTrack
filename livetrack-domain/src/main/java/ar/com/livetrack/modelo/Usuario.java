@@ -1,4 +1,4 @@
-package ar.com.livetrack.domain.modelo;
+package ar.com.livetrack.modelo;
 
 public class Usuario extends BasicEntity {
 
